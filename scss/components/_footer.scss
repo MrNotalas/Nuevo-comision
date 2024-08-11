@@ -1,0 +1,37 @@
+footer {
+    list-style: none;
+    text-decoration: none;
+    background-color: #CDCDCD;
+    position: absolute;
+    width: 100%;
+
+    section {
+        display: flex;
+        justify-content: space-evenly;
+
+        .categorias {
+            margin: 20px;
+        }
+
+        .contactos {
+            margin: 20px;
+        }
+
+        .redes {
+            margin: 20px;
+        }
+
+        ul {
+            li {
+                color: black;
+                list-style: none;
+                text-decoration: none;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

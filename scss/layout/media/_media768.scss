@@ -1,0 +1,59 @@
+@media screen and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar li a {
+        font-size: 12px;
+    }
+
+    .navbar img {
+        width: 10px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .buscar {
+        width: 200px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .m-s {
+        font-size: 18px;
+    }
+
+    .marcas div img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    .carrousel {
+        font-size: 12px;
+    }
+
+    .carrousel img {
+        width: 150px;
+    }
+
+    .panel img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .vec img {
+        width: 30px;
+    }
+
+    .kits img {
+        width: 300px;
+    }
+}
