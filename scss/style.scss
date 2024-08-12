@@ -196,12 +196,15 @@
     }
 }
 
-
 input {
     width: 600px;
     height: 50px;
     border-radius: 30px;
     padding: 10px;
+}
+
+.boton-inicio{
+    @extend .boton-regis
 }
 
 
