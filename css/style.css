@@ -315,14 +315,14 @@ input {
     margin: 0;
     padding: 0;
     box-sizing: border-box; }
-  .navbar img {
-    width: 20px; }
-  .logo img {
+  nav .logo img {
     width: 100px; }
-  .buscar {
-    width: 300px;
-    height: 25px;
+  nav .buscar {
+    width: 400px;
+    height: 20px;
     font-size: 14px; }
+  nav .navbar img {
+    width: 20px; }
   .m-s {
     font-size: 20px; }
   .marcas div img {
@@ -338,23 +338,25 @@ input {
   .vec img {
     width: 30px; }
   .kits img {
-    width: 400px; } }
+    width: 400px; }
+  .grids2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr); } }
 
 @media screen and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; }
-  .navbar li a {
-    font-size: 12px; }
-  .navbar img {
-    width: 10px; }
-  .logo img {
+  nav .logo img {
     width: 50px; }
-  .buscar {
+  nav .buscar {
     width: 200px;
     height: 25px;
     font-size: 14px; }
+  nav .navbar li a {
+    font-size: 12px; }
   .m-s {
     font-size: 18px; }
   .marcas div img {
@@ -364,15 +366,39 @@ input {
     font-size: 16px; }
   .carrousel {
     font-size: 12px; }
-  .carrousel img {
-    width: 150px; }
-  .panel img {
-    width: 250px;
-    height: 150px; }
-  .vec img {
-    width: 30px; }
+    .carrousel img {
+      width: 150px; }
+    .carrousel .vec img {
+      width: 30px; }
+    .carrousel .panel img {
+      width: 250px;
+      height: 150px; }
   .kits img {
-    width: 300px; } }
+    width: 300px; }
+  .grid2 {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column; }
+    .grid2 .t2 {
+      width: 95%;
+      height: fit-content;
+      margin: 20px; }
+      .grid2 .t2 h1 {
+        text-align: center;
+        width: 95%; }
+      .grid2 .t2 p {
+        text-align: center;
+        width: 95%; }
+      .grid2 .t2 .info {
+        width: 95%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+    .grid2 .forms2 {
+      width: 95%;
+      height: fit-content; } }
 
 @media screen and (max-width: 425px) {
   * {
@@ -386,10 +412,10 @@ input {
     display: flex;
     flex-direction: column;
     margin: 10px 0; }
-  .logo img {
-    width: 100px; }
-  .buscar {
-    font-size: 12px; }
+    nav .logo img {
+      width: 100px; }
+    nav .buscar {
+      font-size: 12px; }
   .m-s {
     font-size: 15px; }
   .marcas div img {
@@ -398,50 +424,60 @@ input {
     margin: 1px; }
   .subtitulo {
     font-size: 14px; }
+  .carrousel .vec img {
+    width: 18px;
+    height: 18px; }
+  .carrousel img {
+    width: 100px;
+    height: 100px; }
   .carrousel p {
     font-size: 10px; }
   .carrousel h3 {
     font-size: 10px; }
-  .carrousel img {
-    width: 100px;
-    height: 100px; }
-  .vec img {
-    width: 18px;
-    height: 18px; }
-  .kits img {
-    width: 300px;
-    margin: 5px; }
   .kits {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0; }
+    .kits img {
+      width: 300px;
+      margin: 5px; }
+  .grid2 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column; }
+    .grid2 .t2 {
+      margin: 10px;
+      width: 95%;
+      height: 250px; }
+      .grid2 .t2 h1 {
+        text-align: center;
+        width: 100%; }
+      .grid2 .t2 p {
+        text-align: center;
+        width: 100%; }
+      .grid2 .t2 .info {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+    .grid2 .forms2 {
+      width: 90%;
+      padding: 10px; }
+      .grid2 .forms2 form {
+        margin: 10px 0; }
+        .grid2 .forms2 form input {
+          width: 300px;
+          height: 30px;
+          justify-content: center; }
+      .grid2 .forms2 .mesage input {
+        height: 150px; }
   footer section {
     display: flex;
     flex-direction: column;
     font-size: 12px; }
-  footer img {
-    width: 20px; }
-  .contactos ul li img {
-    width: 15px; }
-  .grid2 {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    flex-direction: column; }
-  .t2 {
-    margin: 10px;
-    width: 90%;
-    height: 250px;
-    align-content: center; }
-  .forms2 {
-    width: 85%;
-    height: 400px;
-    padding: 10px;
-    align-content: center; }
-  .forms2 form {
-    margin: 10px 0; }
-  .forms2 input {
-    width: 300px;
-    height: 30px;
-    justify-content: center; } }
+    footer section .contactos img {
+      width: 15px; }
+    footer section img {
+      width: 20px; } }
