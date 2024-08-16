@@ -6,7 +6,10 @@
     border: solid;
     border-width: .0313rem;
     border-radius: 1.875rem;
-
+    &:hover{
+        background-color: #173F2A;
+        color: #FEF6E3;
+    }
     p {
         text-align: center;
     }
@@ -20,18 +23,8 @@
     padding: 10px;
     grid-column-start: 2;
     grid-column-end: 3;
-}
-
-.boton-regis {
-    background-color: #173F2A;
-    color: #FEF6E3;
-    border-radius: 20px;
-    margin: 20px 20px 10px 20px;
-    padding: 10px;
-    width: 300px;
-
-    p {
-        text-align: center;
+    &:hover{
+        opacity: 80%;
     }
 }
 
@@ -42,7 +35,9 @@
     margin: 20px 20px 10px 20px;
     padding: 10px;
     width: 300px;
-
+    &:hover{
+        opacity: 80%;
+    }
     p {
         text-align: center;
     }
