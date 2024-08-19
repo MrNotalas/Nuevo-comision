@@ -57,4 +57,46 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
+
+    .guia{
+        width: 95%;
+        align-items: center;
+        .orden{
+            option{
+                width: auto;
+            }
+        }
+    }
+
+    .grid{
+        width: 99%;
+        height: 1700px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+
+        .barra-izquierda{
+            width: 200px;
+        }
+    
+        .catalogo{
+            width: 95%;
+            height: fit-content;
+            padding: 0;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 9;
+            article{
+                width: auto;
+                height: fit-content;
+                img{
+                    width: 200px;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+
+
 }
