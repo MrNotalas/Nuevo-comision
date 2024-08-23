@@ -88,4 +88,29 @@
             height: fit-content;
         }
     }
+
+    .grid{
+        width: 98%;
+        height: max-content;
+        grid-template-columns: repeat(3, 1fr);
+        .barra-izquierda{
+        display: none;
+        }
+        .catalogo{
+            width: 99%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-start: 1;
+            grid-column-end: 4;
+            article{
+                font-size: 16px;
+                width: auto;
+                height: auto;
+                img{
+                    width: 150px;
+                    height: auto;
+                }
+            }
+        }
+    }
 }

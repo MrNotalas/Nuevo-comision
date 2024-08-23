@@ -144,6 +144,49 @@
         }
     }
 
+    .guia{
+        width: 97%;
+        margin: 5px;
+        justify-items: start;
+        justify-content: space-around;
+        .gia{
+            margin: 0;
+        }
+        .orden{
+            margin: 0;
+        }
+    }
+
+    .grid{
+        width: 96%;
+        height: max-content;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: start;
+        .catalogo{
+            width: 99%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-start: 1;
+            grid-column-end: 3;
+            article{
+                font-size: 14px;
+                width: auto;
+                height: auto;
+                img{
+                    width: 130px;
+                    height: auto;
+                }
+            }
+            .sema{
+                display: none;
+            }
+            .m-r{
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+        }
+    }
+
 
 
     footer{
